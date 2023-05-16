@@ -1,11 +1,11 @@
 import {Routes, Route} from 'react-router-dom';
-import App from './App';
+import LoginPage from './pages/LoginPage';
 function Router() {
     return(
         <>
-        <Routes>
-            <Route path='/' Component={App}></Route>
-        </Routes>
+            <Routes>
+                <Route path='/' Component={LoginPage}></Route>
+            </Routes>
         </>
         
     )
